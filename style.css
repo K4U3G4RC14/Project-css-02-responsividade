@@ -1,0 +1,181 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: #5D5D7D;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+#text{
+    width: 60%;
+    display: inline-block;
+}
+
+#menu{
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+#girl-phone{
+    position:relative ;
+    top: 17%;
+    right: 16%;
+    height: 30rem;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    width: 23rem;
+    height: 10rem;
+    position: relative;
+    top: 13rem;
+    left: 5.5rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    width: 33.75rem;
+    height: 9rem;
+    position: relative;
+    top: 15rem;
+    left: 5.5rem;
+    font-family: Oswald;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: justify;
+}
+
+#start{
+    background-color:#9499EA;
+    width: 16.8125rem;
+    height: 3.875rem;
+    position: relative;
+    top: 17rem;
+    left: 5.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#start:hover{
+    background-color: #3c3c52;
+}
+
+.link-head{
+    margin-right: 2.56rem;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 41px;
+    position: relative;
+    left: 5rem;
+    top: 3rem;
+    text-decoration: none;
+}
+
+#work{
+    opacity: 0.4;
+}
+
+header{
+    text-align: center;
+}
+
+ @media (max-width: 600px){ 
+
+    *{
+        font-family: 'Oswald', sans-serif;
+        margin: 0%; 
+        padding: 0%;
+        box-sizing: border-box;
+        color: #5D5D7D;
+    }
+
+    header{
+        display: none;
+    }
+
+    main{
+        width: 100vw;
+        height: auto;
+    }
+
+    #text{
+        width: 100%;
+        height: 60vh;
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: static;
+    }
+
+    #menu{
+        background-color: rgba(93, 93, 125, 0.16);
+        height: 60vh;
+        width: 100vw;
+    }
+
+    #girl-phone{
+        margin-left: auto;
+        margin-right: auto;
+        width: 16.94rem;
+        height: 18rem;
+        position: absolute;
+    }
+  
+    h1{
+        font-weight: 400;
+        font-size: 2.25rem;
+        line-height: 3.25rem;
+        width: 16.75rem;
+        height: 6rem;
+        position: unset;
+        text-align: center;
+        margin: 0rem 3.44rem 0rem;
+    }
+
+    p{
+        font-family: Oswald;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 2rem;
+        width: 16.75rem;
+        position: unset;
+        text-align: center;
+        margin: 1rem 3.44rem 0px;
+    }
+
+    #start{
+        width: 16.80rem;
+        background-color:#9499EA;
+        height: 3.875rem;
+        border: none;
+        border-radius: 1.5rem;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+        position: unset;
+        margin: 0% 3.44rem;
+    }
+    
+}
